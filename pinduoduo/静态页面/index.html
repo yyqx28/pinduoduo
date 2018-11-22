@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="bower_components/swiper/dist/css/swiper.css">
+</head>
+<body>
+<div id="app">
+    <!--顶部区域-->
+    <div class="header">
+        <div class="headerList">
+            <a href="javascript:;">热门</a>
+            <a href="javascript:;">女装</a>
+            <a href="javascript:;">百货</a>
+            <a href="javascript:;">鞋包</a>
+            <a href="javascript:;">食品</a>
+            <a href="javascript:;">母婴</a>
+            <a href="javascript:;">内衣</a>
+            <a href="javascript:;">电器</a>
+            <a href="javascript:;">男装</a>
+            <a href="javascript:;">家具</a>
+            <a href="javascript:;">水果</a>
+        </div>
+    </div>
+    <!--中部区域-->
+    <div class="center">
+        <!--广告轮播图-->
+        <div class="swiper-container advant">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/list1.jpg" alt=""/></div>
+                <div class="swiper-slide"><img src="images/list1.jpg" alt=""/></div>
+                <div class="swiper-slide"><img src="images/list1.jpg" alt=""/></div>
+                <div class="swiper-slide"><img src="images/list1.jpg" alt=""/></div>
+            </div>
+            <!-- 增加分页器 -->
+            <div class="swiper-pagination"></div>
+        </div>
+        <!--功能分类轮播图-->
+        <div class="swiper-container select">
+            <div class="swiper-wrapper selectList">
+                <div class="swiper-slide lists ">
+                    <div class="list">
+                        <img src="images/s1.jpg" alt=""/>
+                        <span>每日清仓</span>
+                    </div>
+                    <div class="list">
+                        <img src="images/s1.jpg" alt=""/>
+                        <span>每日清仓</span>
+                    </div>
+                </div>
+                <div class="swiper-slide lists ">
+                    <div class="list">
+                        <img src="images/s1.jpg" alt=""/>
+                        <span>每日清仓</span>
+                    </div>
+                    <div class="list">
+                        <img src="images/s1.jpg" alt=""/>
+                        <span>每日清仓</span>
+                    </div>
+                </div>
+                <div class="swiper-slide lists ">
+                    <div class="list">
+                        <img src="images/s1.jpg" alt=""/>
+                        <span>每日清仓</span>
+                    </div>
+                    <div class="list">
+                        <img src="images/s1.jpg" alt=""/>
+                        <span>每日清仓</span>
+                    </div>
+                </div>
+                <div class="swiper-slide lists ">
+                    <div class="list">
+                        <img src="images/s1.jpg" alt=""/>
+                        <span>每日清仓</span>
+                    </div>
+                    <div class="list">
+                        <img src="images/s1.jpg" alt=""/>
+                        <span>每日清仓</span>
+                    </div>
+                </div>
+                <div class="swiper-slide lists ">
+                    <div class="list">
+                        <img src="images/s1.jpg" alt=""/>
+                        <span>每日清仓</span>
+                    </div>
+                    <div class="list">
+                        <img src="images/s1.jpg" alt=""/>
+                        <span>每日清仓</span>
+                    </div>
+                </div>
+                <div class="swiper-slide lists ">
+                    <div class="list">
+                        <img src="images/s1.jpg" alt=""/>
+                        <span>每日清仓</span>
+                    </div>
+                    <div class="list">
+                        <img src="images/s1.jpg" alt=""/>
+                        <span>每日清仓</span>
+                    </div>
+                </div>
+                <div class="swiper-slide lists ">
+                    <div class="list">
+                        <img src="images/s1.jpg" alt=""/>
+                        <span>每日清仓</span>
+                    </div>
+                    <div class="list">
+                        <img src="images/s1.jpg" alt=""/>
+                        <span>每日清仓</span>
+                    </div>
+                </div>
+                <div class="swiper-slide lists ">
+                    <div class="list">
+                        <img src="images/s1.jpg" alt=""/>
+                        <span>每日清仓</span>
+                    </div>
+                    <div class="list">
+                        <img src="images/s1.jpg" alt=""/>
+                        <span>每日清仓</span>
+                    </div>
+                </div>
+            </div>
+            <!-- 增加滚动条 -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+        <!--活动-->
+        <div class="active">
+            <img src="images/11.jpg" alt=""/>
+        </div>
+        <!--商品-->
+        <ul class="goods">
+            <!--<li>-->
+                <!--<div class="goodImg">-->
+                    <!--<img src="images/good1.jpg" alt=""/>-->
+                <!--</div>-->
+                <!--<div class="goodRight">-->
+                    <!--<h3><img src="images/a1.jpg" alt=""/>加绒加厚打底网纱打底衫女长袖2018秋冬新款修身洋气</h3>-->
+                    <!--<div class=" goodRightBottom">-->
+                        <!--<span class="tag">爱逛街</span>-->
+                        <!--<p>￥19.9<span>已拼2.9万件</span><img src="images/p1.jpg" alt=""/></p>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</li>-->
+            <li v-for="(p,index) in goods">
+                <div class="goodImg">
+                    <img :src="p.goodsPic" alt=""/>
+                </div>
+                <div class="goodRight">
+                    <h3><img :src="p.activePic" alt=""/>{{p.title}}</h3>
+                    <div class=" goodRightBottom">
+                        <span class="tag">{{p.tag}}</span>
+                        <p>￥{{p.price}}<span>已拼{{p.qal}}万件</span><img :src="p.personPic" alt=""/></p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!--底部区域-->
+    <div class="footer">
+        <a href="index.html">
+            <div class="bottom_list">
+                <i class="iconfont icon-home-full"></i>
+                <span>首页</span>
+            </div>
+        </a>
+        <a href="">
+            <div class="bottom_list">
+                <i class="iconfont icon-tuijian"></i>
+                <span>推荐</span>
+            </div>
+        </a>
+        <a href="">
+            <div class="bottom_list">
+                <i class="iconfont icon-iconset0157"></i>
+                <span>搜索</span>
+            </div>
+        </a>
+        <a href="">
+            <div class="bottom_list">
+                <i class="iconfont icon-liaotianjilu"></i>
+                <span>聊天</span>
+            </div>
+        </a>
+        <a href="">
+            <div class="bottom_list">
+                <i class="iconfont icon-gerenzhongxin"></i>
+                <span>个人中心</span>
+            </div>
+        </a>
+    </div>
+</div>
+
+</body>
+</html>
+<script type="text/javascript" src="node_modules/vue/dist/vue.js"></script>
+<script src="bower_components/swiper/dist/js/swiper.js"></script>
+<!--<script src="js/index.js"></script>-->
+<script>
+    (function(){
+        var mySwiper1 = new Swiper('.advant', {
+            loop: true,
+            speed: 300,
+            autoplay: {
+                delay: 1000,
+                // 用户操作swiper之后自动切换不会停止，每次都会重新启动autoplay
+                disableOnInteraction: false
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            }
+
+        });
+        var mySwiper2 = new Swiper('.select', {
+            // slidesPerView :设置slider容器能够同时显示的slides数量(carousel模式)
+            slidesPerView: 5,
+            autoplay: false,
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            }
+        });
+        const ALAXURL = "http://localhost:8080/data/goods.json";
+        new Vue({
+            el:'#app',
+            data:{
+                /**
+                 * 商品列表
+                 */
+                goods:[]
+            },
+            mounted: {
+                /**
+                 * 加载页面数据
+                 * @private
+                 */
+                _getData() {
+                    //获取数据
+                    fetch(ALAXURL).then(res => {
+                        res.json().then(data => {
+                            this.goods = data;
+                            console.log(this.goods);
+                        });
+                    });
+                },
+                created() {
+                    this._getData();
+                }
+            }
+        });
+
+
+    })();
+</script>

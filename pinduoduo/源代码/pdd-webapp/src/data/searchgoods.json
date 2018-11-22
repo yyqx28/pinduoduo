@@ -1,0 +1,22 @@
+[
+  {"title":"女装","titPic":"/static/images/q1.jpg","titAct":"/static/images/sec1.jpg",
+    "searchClothes":[
+      {"clothPic":"/static/images/c1.jpg","clothTit":"针织毛衣"},
+      {"clothPic":"/static/images/c1.jpg","clothTit":"针织毛衣"},
+      {"clothPic":"/static/images/c1.jpg","clothTit":"针织毛衣"},
+      {"clothPic":"/static/images/c1.jpg","clothTit":"针织毛衣"},
+      {"clothPic":"/static/images/c1.jpg","clothTit":"针织毛衣"},
+      {"clothPic":"/static/images/c1.jpg","clothTit":"针织毛衣"}
+    ]
+  },
+  {"title":"鞋包","titPic":"/static/images/q1.jpg",
+    "searchClothes":[
+      {"clothPic":"/static/images/c1.jpg","clothTit":"针织毛衣"},
+      {"clothPic":"/static/images/c1.jpg","clothTit":"针织毛衣"},
+      {"clothPic":"/static/images/c1.jpg","clothTit":"针织毛衣"},
+      {"clothPic":"/static/images/c1.jpg","clothTit":"针织毛衣"},
+      {"clothPic":"/static/images/c1.jpg","clothTit":"针织毛衣"},
+      {"clothPic":"/static/images/c1.jpg","clothTit":"针织毛衣"}
+    ]
+  }
+]

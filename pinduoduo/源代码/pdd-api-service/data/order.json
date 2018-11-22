@@ -1,0 +1,67 @@
+
+{
+  "orderTit":[
+    {"title":"全部"},
+    {"title":"待付款"},
+    {"title":"待分享"},
+    {"title":"待发货"},
+    {"title":"待收货"},
+    {"title":"待评价"}
+  ],
+  "orders":[
+    {"storename":"拼多多",
+      "pic":"/static/images/good1.jpg",
+      "tit":"【国行正品带票】iPhone XS Max 全网通 苹果 前后两千万像素",
+      "type":"玫瑰金 R11 MGJ",
+      "price":12,
+      "sum":2,
+      "pay":24,
+      "del":"删除订单"
+    },
+    {"storename":"唯品会",
+      "pic":"/static/images/good2.jpg",
+      "tit":"【国行正品带票】iPhone XS Max 全网通 苹果 前后两千万像素",
+      "type":"玫瑰金 R11 MGJ",
+      "price":12,
+      "sum":2,
+      "pay":24,
+      "del":"删除订单"
+    },
+    {"storename":"拼多多",
+      "pic":"/static/images/good1.jpg",
+      "tit":"【国行正品带票】iPhone XS Max 全网通 苹果 前后两千万像素",
+      "type":"玫瑰金 R11 MGJ",
+      "price":12,
+      "sum":2,
+      "pay":24,
+      "del":"删除订单"
+    },
+    {"storename":"拼多多",
+      "pic":"/static/images/good1.jpg",
+      "tit":"【国行正品带票】iPhone XS Max 全网通 苹果 前后两千万像素",
+      "type":"玫瑰金 R11 MGJ",
+      "price":12,
+      "sum":2,
+      "pay":24,
+      "del":"删除订单"
+    },
+    {"storename":"拼多多",
+      "pic":"/static/images/good1.jpg",
+      "tit":"【国行正品带票】iPhone XS Max 全网通 苹果 前后两千万像素",
+      "type":"玫瑰金 R11 MGJ",
+      "price":12,
+      "sum":2,
+      "pay":24,
+      "del":"删除订单"
+    },
+    {"storename":"拼多多",
+      "pic":"/static/images/good1.jpg",
+      "tit":"【国行正品带票】iPhone XS Max 全网通 苹果 前后两千万像素",
+      "type":"玫瑰金 R11 MGJ",
+      "price":12,
+      "sum":2,
+      "pay":24,
+      "del":"删除订单"
+    }
+  ]
+}

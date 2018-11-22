@@ -1,0 +1,181 @@
+/*顶部区域*/
+.header{
+    width: 100%;
+    height:1.2rem;
+    display: flex;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    background: #ffffff;
+    border-bottom: 1px solid #e4e0e1;
+
+}
+.header .headerTop{
+    width:100%;
+    height:0.5rem;
+    display: flex;
+    -webkit-justify-content: flex-end;
+    align-items: center;
+}
+.headerTop h3{
+    font-weight: 100;
+    font-size: 0.24rem;
+    line-height: 0.6rem;
+}
+.headerTop i{
+    font-size:0.3rem ;
+    color:#696969 ;
+    line-height: 0.6rem;
+    margin-left: 1.1rem;
+    margin-right: 0.16rem;
+}
+.header .headerBottom{
+    display: flex;
+    align-items: center;
+    -webkit-justify-content: center;
+    text-align: center;
+}
+.headerBottom a{
+    width:4rem;
+    height:0.5rem;
+    background: #ededed;
+    border-radius: 0.15rem;
+    font-size:0.2rem;
+    color: #9c9c9c;
+    line-height: 0.5rem;
+    margin-right: 0.1rem;
+    margin-left: 0.1rem;
+}
+.headerBottom a i{
+    font-size:0.2rem;
+    color: #9c9c9c;
+    line-height: 0.5rem;
+    margin-right: 0.15rem;
+}
+ /*中部区域*/
+.center{
+     width:100%;
+     height:4.8rem;
+     display: flex;
+ }
+.center .centerLeft{
+    width:34%;
+    height:4.8rem;
+    background:#f8f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+.centerLeft::-webkit-scrollbar{
+    display: none;
+}
+.centerLeft a{
+    display: inline-block;
+    padding:0.25rem 0.4rem;
+    line-height: 0.39rem;
+    font-size:0.22rem ;
+    color: #535456;
+    white-space: nowrap;
+}
+.center .centerRight{
+    width:66%;
+    height:4.8rem;
+    /*background:lavender;*/
+    display: flex;
+    overflow-y: auto;
+    flex-direction: column;
+    margin-top: 0.05rem;
+    padding:0 0.12rem 0 0.18rem;
+}
+.centerRight ul li{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.28rem;
+}
+.centerRight ul li .session{
+    display: flex;
+    -webkit-justify-content: space-between;
+    align-items: center;
+    margin-top: 0.1rem;
+}
+.centerRight ul li .Img{
+    width:2.2rem;
+    height:0.75rem;
+    margin-top: 0.25rem;
+}
+.session .sessionLeft{
+    font-size:0.16rem ;
+    color:#5a5a5a ;
+    line-height: 0.17rem;
+}
+.sessionLeft img{
+    width:0.5rem;
+    height:0.17rem;
+    vertical-align: middle;
+}
+.session .sessionRight{
+    font-size:0.16rem ;
+    color:#8f8f8f ;
+}
+.sessionRight i{
+    font-size:0.14rem ;
+    color:#8f8f8f ;
+    margin-left: 0.09rem;
+}
+.centerRight ul li .clothes{
+    display: flex;
+    -webkit-justify-content: space-between;
+    flex-wrap: wrap;
+}
+.clothes .clothesList{
+    display: flex;
+    flex-direction: column;
+    width:0.7rem;
+    height:1.15rem;
+    flex-shrink: 0;
+}
+.clothesList img{
+    width:0.6rem;
+    height:0.75rem;
+    margin-top:0.28rem ;
+}
+.clothesList h4{
+    width:1rem;
+    font-size: 0.16rem;
+    color: #171717;
+}
+/*底部区域*/
+.footer{
+    width:100%;
+    height:0.51rem;
+    display: flex;
+    justify-content: space-around;
+    padding:0.05rem 0;
+    border-top: 1px solid #f4f4f4;
+    /*position: fixed;*/
+    /*bottom: 0;*/
+    background: #ffffff;
+}
+.footer .bottom_list{
+    width:0.5rem;
+    height:0.51rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 0.06rem;
+}
+.bottom_list i{
+    font-size: 0.24rem;
+    color: #5b5b5b;
+}
+.bottom_list  span{
+    font-size: 0.07rem;
+    color: #5b5b5b;
+}
+a:nth-child(3) i{
+    color:#e12c2a ;
+}
+a:nth-child(3) span{
+    color:#fc2427 ;
+}
